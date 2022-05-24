@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: #666;
+    margin: 0 auto;
+}
+
+.header-logo{
+    height: 80px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0 0 30px;
+}
+
+.logo{
+    vertical-align: middle;
+
+}
+
+h1{
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.button{
+    padding: 10px;
+}
+
+.button-blue{
+    padding: 7px;
+    color: white;
+    background-color: #47ADF1;
+    border-radius: 15%;
+    border: #47ADF1;
+    margin: 5px;
+}
+
+.button-light{
+    padding: 7px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 15%;
+    opacity: 0.3;
+}
+
+hr{
+    color:#666;
+}
+
+.title::before{
+    content: "\25BC";
+}
+
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+.main-title{
+    margin:20px 0 20px 20px;
+}
+
+.span{
+    color: white;
+    padding: 5px;
+    vertical-align: middle;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.new-blue{
+    background-color:#47ADF1;
+}
+
+.new-purple{
+    background-color: #9C72E4;
+}
+
+.new-aqua{
+    background-color:#64C0A9 ;
+}
+
+
+.new-orange{
+    background-color: #F29E33;
+}
+
+
+.new-pink{
+    background-color: #D863A1;
+}
+
+.new-senape{
+    background-color: #B0C926;
+}
+
+
+
+ 
