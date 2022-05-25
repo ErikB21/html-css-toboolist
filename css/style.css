@@ -29,37 +29,33 @@ h1{
     vertical-align: middle;
 }
 
-main{
+.container{
     width: 70%;
     background-color: white;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 20px auto;
     padding-bottom: 10px;
 }
 
 .button{
-    padding: 10px 10px 10px 30px;
+    padding: 20px 40px;
+    border-bottom: solid 3px rgb(163, 155, 155);
 }
 
 .button-blue{
     padding: 7px;
     color: white;
     background-color: #47ADF1;
-    border-radius: 15%;
+    border-radius: 10px;
     border: #47ADF1;
     margin: 5px;
 }
 
 .button-light{
     padding: 7px;
-    margin-top: 10px;
+    margin: 5px;
     background-color: white;
-    border-radius: 15%;
+    border-radius: 10px;
     opacity: 0.3;
-}
-
-hr{
-    background-color: rgb(163, 155, 155);
 }
 
 .title::before{
@@ -70,10 +66,40 @@ hr{
 li{
     list-style: none;
     padding: 10px;
+    vertical-align: middle;
 }
 
 .main-title{
-    margin:20px 0 30px 40px;
+    padding:20px 40px;
+}
+
+.circle{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.true{
+    color: green;
+    border-color:green;
+}
+
+.false{
+    color: red;
+    border-color:red;  
+}
+
+.true::before{
+    content: "\2713";
+}
+
+.false::before{
+    content: "\2717";
 }
 
 .span{
@@ -81,7 +107,8 @@ li{
     padding: 5px;
     vertical-align: middle;
     border-radius: 25px;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 700;
 }
 
 .new-blue{
@@ -110,23 +137,6 @@ li{
     background-color: #B0C926;
 }
 
-.true{
-    color: green;
-    border: 1px solid green;
-    padding: 3px;
-    font-size: 10px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.false{
-    color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    padding: 3px;
-    font-size: 10px;
-    vertical-align: middle;
-}
 
 .span:hover{
     color: rgba(2, 12, 12, 0.3);
